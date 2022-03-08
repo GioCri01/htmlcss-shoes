@@ -1,0 +1,95 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*UTILITY*/
+
+ .red{
+     background-color: red;
+ }
+ .yellow{
+     background-color: yellow;
+ }
+ .green{
+     background-color: green;
+ }
+
+ h1{
+     text-align: center;
+     font-size: 100px;
+     font-family: monospace;
+     text-transform: uppercase;
+     color: yellow;
+ }
+
+ .green-title{
+     color: green;
+ }
+
+
+
+
+/*header*/
+
+header{
+    position: fixed;
+    z-index: 999;
+    
+}
+
+    
+    
+    header ul li{
+    margin: 20px;
+    display: inline-block;
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 5px 5px 3px black
+    
+    
+    
+    
+    }
+
+    header ul li a{
+        color: black;
+        font-size: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: monospace;
+        padding: 15px;
+        
+        
+    }
+
+    /*main*/
+
+    main .main-box{
+        height: 100vh;
+        width: 100%;
+        
+        position: relative;
+        
+    }
+
+     .main-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+
+    }
+
+    
+  
+
+        
+    
